@@ -1,5 +1,9 @@
-import { relayInit, generatePrivateKey, getPublicKey } 
-from "https://esm.sh/nostr-tools"
+import {
+    relayInit,
+    generatePrivateKey,
+    getPublicKey
+  } from "https://esm.sh/nostr-tools@1.17.0"
+  
 
 const relay = relayInit("wss://relay.damus.io")
 await relay.connect()
